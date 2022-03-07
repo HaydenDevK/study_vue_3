@@ -17,3 +17,5 @@ npm run serve // Compiles and hot-reloads for development
 #### 1. Text Binding
 #### 2. Attr Binding
 #### 3. Class Binding
+#### 4. Conditional Rendering
+#### 5. List Rendering
