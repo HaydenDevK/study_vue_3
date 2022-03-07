@@ -1,17 +1,20 @@
 <template>
   <BindingText />
-  <BindingStyle />
+  <BindingAttr />
+  <BindingClass />
 </template>
 
 <script>
 import BindingText from './components/BindingText';
-import BindingStyle from './components/BindingStyle';
+import BindingAttr from './components/BindingAttr';
+import BindingClass from './components/BindingClass';
 
 export default {
   name: 'App',
   components: {
     BindingText,
-    BindingStyle
+    BindingAttr,
+    BindingClass
   }
 };
 </script>

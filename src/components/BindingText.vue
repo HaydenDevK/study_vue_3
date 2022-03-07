@@ -1,5 +1,5 @@
 <template>
-  <h1>1. 텍스트 바인딩 : v-text, v-html</h1>
+  <h1>1. Text Binding : v-text, v-html</h1>
   <!-- 1. v-text : 자바스크립트의 innerText -->
   <div>{{ user.name }}님 안녕하세요</div>
   <div v-text="user.name"></div>
