@@ -1,15 +1,16 @@
 <template>
-  <h1>4. Conditional Rendering :</h1>
+  <h1>4. Conditional Rendering : v-once, v-if/v-else-if/v-else, template</h1>
+
+  <h3>
+    [ v-once : 데이터가 동적으로 변화해도, 처음 렌더링된 후 변경되지 않게한다. ]
+  </h3>
   <div v-text="user.name"></div>
   <div>{{ user.name }}</div>
   <div v-once v-text="user.name"></div>
-  <!-- v-once :
-    데이터가 동적으로 변화해도, 처음 렌더링된 후 변경되지 않게한다.
-  -->
   <input type="text" v-model="user.name" />
   <input type="text" v-model="user.age" />
 
-  <!-- v-if -->
+  <h3>[ v-if / v-else-if / v-else ]</h3>
   <div v-if="showName">{{ user.name }}</div>
   <div v-else>이름은 가려져있습니다.</div>
   <div v-if="user.age >= 20">성인입니다.</div>
@@ -18,7 +19,7 @@
   <div v-else-if="user.age >= 10 && user.age < 20">10대 입니다.</div>
   <div v-else>어린이 입니다.</div>
 
-  <!-- v-show -->
+  <h3>[ v-show ]</h3>
   <div v-if="showName">{{ user.name }} IF</div>
   <!-- 노드가 렌더링 자체가 안되기 때문에, 용량이 크고 새로운 데이터를 불러와야 할 때 적합 -->
   <div v-show="showName">{{ user.name }} SHOW</div>
@@ -59,5 +60,3 @@ export default {
   }
 };
 </script>
-
-<style scoped></style>

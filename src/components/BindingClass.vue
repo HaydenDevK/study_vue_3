@@ -1,12 +1,12 @@
 <template>
-  <h1>3. Class Binding :</h1>
-  <!-- static -->
+  <h1>3. Class Binding : static, 정적 바인딩, 동적 바인딩 3가지 방법</h1>
+  <h3>[ static ]</h3>
   <div class="text-right">static class</div>
 
-  <!-- 정적 binding, static -->
+  <h3>[ 정적 binding, static ]</h3>
   <div v-bind:class="textRight" class="text-red">정적 class binding</div>
 
-  <!-- 동적 binding (조건문) -->
+  <h3>[ 동적 binding (조건문) ]</h3>
   <div :class="isDone === true ? 'text-red' : 'text-blue'">
     삼항연산자로 동적 class binding
   </div>
