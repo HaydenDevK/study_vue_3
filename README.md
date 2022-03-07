@@ -19,3 +19,4 @@ npm run serve // Compiles and hot-reloads for development
 #### 3. Class Binding
 #### 4. Conditional Rendering
 #### 5. List Rendering
+#### 6. Conditional List Rendering
