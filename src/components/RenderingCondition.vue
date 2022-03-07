@@ -1,5 +1,5 @@
 <template>
-  <h1>4. Conditional Binding :</h1>
+  <h1>4. Conditional Rendering :</h1>
   <div v-text="user.name"></div>
   <div>{{ user.name }}</div>
   <div v-once v-text="user.name"></div>
@@ -45,7 +45,7 @@
 
 <script>
 export default {
-  name: 'BindingCondition',
+  name: 'RenderingCondition',
   data() {
     return {
       user: {

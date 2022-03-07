@@ -2,14 +2,14 @@
   <BindingText />
   <BindingAttr />
   <BindingClass />
-  <BindingCondition />
+  <RenderingCondition />
 </template>
 
 <script>
 import BindingText from './components/BindingText';
 import BindingAttr from './components/BindingAttr';
 import BindingClass from './components/BindingClass';
-import BindingCondition from './components/BindingCondition';
+import RenderingCondition from './components/RenderingCondition';
 
 export default {
   name: 'App',
@@ -17,7 +17,7 @@ export default {
     BindingText,
     BindingAttr,
     BindingClass,
-    BindingCondition
+    RenderingCondition
   }
 };
 </script>
