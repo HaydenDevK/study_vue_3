@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'StudyMethods',
+  name: 'MethodsFirst',
   data() {
     return {
       age: 30

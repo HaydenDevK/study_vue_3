@@ -5,7 +5,7 @@
   <RenderingCondition />
   <RenderingList />
   <RenderingConditionalList />
-  <StudyMethods />
+  <MethodsFirst />
 </template>
 
 <script>
@@ -15,7 +15,7 @@ import BindingClass from './components/BindingClass';
 import RenderingCondition from './components/RenderingCondition';
 import RenderingList from './components/RenderingList';
 import RenderingConditionalList from './components/RenderingConditionalList';
-import StudyMethods from './components/StudyMethods';
+import MethodsFirst from './components/MethodsFirst';
 
 export default {
   name: 'App',
@@ -26,7 +26,7 @@ export default {
     RenderingCondition,
     RenderingList,
     RenderingConditionalList,
-    StudyMethods
+    MethodsFirst
   }
 };
 </script>
