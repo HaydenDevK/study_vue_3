@@ -1,1 +1,1 @@
-# STUDY_Vue_3
+# study_vue_3
