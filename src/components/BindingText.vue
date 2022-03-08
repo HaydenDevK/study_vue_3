@@ -20,11 +20,9 @@ export default {
       user: {
         name: 'user'
       },
-      button: '<button>click!</button>',
-      buttonDanger: `<button onclick="alert('해킹')">click!</button>`
+      button: '<button>나는 눌러도 괜찮지!</button>',
+      buttonDanger: `<button onclick="alert('해킹')">나는 누르면 큰일나지!</button>`
     };
   }
 };
 </script>
-
-<style scoped></style>

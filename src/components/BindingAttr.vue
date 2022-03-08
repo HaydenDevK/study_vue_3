@@ -2,7 +2,7 @@
   <h1>2. Attr Binding : 정적 바인딩, 동적 바인딩</h1>
   <div id="title">정적 바인딩</div>
   <div v-bind:id="dynamicId">동적 바인딩</div>
-  <a v-bind:href="dynamicUrl">naver</a>
+  <a v-bind:href="dynamicUrl">naver</a><br />
   <img v-bind:src="img.dynamicSrc" v-bind:alt="img.dynamicAlt" />
   <input v-bind:type="dynamicType" />
   <div v-bind:style="dynamicStyle1">동적 바인딩1</div>

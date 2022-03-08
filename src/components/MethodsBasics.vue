@@ -10,7 +10,7 @@ export default {
   name: 'MethodsFirst',
   data() {
     return {
-      age: 30
+      age: 100
     };
   },
   methods: {
