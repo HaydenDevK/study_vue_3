@@ -36,7 +36,7 @@ npm run serve // Compiles and hot-reloads for development
 - deep
 - immediate
 ### Component
-- props (정적 / 동적, `String`/`Number`/`Object`)
+- props (정적/동적, `String`/`Number`/`Object`)
 
 ## ADVENCED
 ### Force Rendering
