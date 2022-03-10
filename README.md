@@ -23,7 +23,7 @@ npm run serve // Compiles and hot-reloads for development
 #### 1. Conditional Rendering
 #### 2. List Rendering
 #### 3. Conditional List Rendering 
-- 데이터 가공(filter)
+- 데이터 가공(`filter`)
 - 조건문
 ### Methods Basics
 ### Events Basics
