@@ -1,5 +1,5 @@
 <template>
-  <h1>Component Force Rendering</h1>
+  <h1>Force Component Rendering</h1>
 
   <h3>[ 1. key 활용 ]</h3>
   {{ key }}

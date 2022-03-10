@@ -15,6 +15,12 @@
   <ComputedBasics />
   <WatchBasics />
   <ComponentParent />
+  <ComponentParent2 />
+  <CompLevel1 />
+  <DynamicComponent />
+  <CardParent />
+  <TeleportBasics />
+  <AxiosBasics />
   <hr />
 
   <div style="text-align: center; font-size: 40px; font-weight: bold">
@@ -38,6 +44,12 @@ import ComputedBasics from './components/ComputedBasics';
 import WatchBasics from './components/WatchBasics';
 import ComponentForceRerender from './components/advanced/force-rerender/RerenderParent';
 import ComponentParent from './components/component-basic/ComponentParent';
+import ComponentParent2 from './components/component-basic/ComponentParent2';
+import CompLevel1 from './components/provide-inject/CompLevel1';
+import DynamicComponent from './components/dynamic-component/DynamicComponent';
+import CardParent from './components/slot/CardParent';
+import TeleportBasics from './components/TeleportBasics';
+import AxiosBasics from './components/http/AxiosBasics';
 
 export default {
   name: 'App',
@@ -55,7 +67,13 @@ export default {
     ComputedBasics,
     WatchBasics,
     ComponentForceRerender,
-    ComponentParent
+    ComponentParent,
+    ComponentParent2,
+    CompLevel1,
+    DynamicComponent,
+    CardParent,
+    TeleportBasics,
+    AxiosBasics
   }
 };
 </script>

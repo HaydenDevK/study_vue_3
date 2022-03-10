@@ -1,5 +1,5 @@
 <template>
-  <h1>12. Component</h1>
+  <h1>12. Component Basics 1</h1>
   <h3>[ 1. 정적 props String ]</h3>
   <ComponentChild PropsString="정적" />
   <h3>[ 2. 동적 props String ]</h3>
