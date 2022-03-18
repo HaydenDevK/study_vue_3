@@ -19,7 +19,7 @@
         Vue에서는, IME(조합형 문자)가 필요한 언어의 경우 IME(조합)중에는 v-model이 업데이트 되지않는 문제가 있기 때문이다.
         이 경우, 
         1. <input :value="user.name" @input="user.name = $event.target.value"/>
-        2. @input="setValue($event)" setValue(e){this.user.name = $event.target.value}
+        2. @input="setValue($event)" setValue(e){this.user.name = $event.target.value} // 똑같은 내용인데 함수로 만든 것이다.
       -->
     </div>
     <div>

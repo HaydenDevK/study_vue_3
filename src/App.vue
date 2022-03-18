@@ -21,6 +21,10 @@
   <CardParent />
   <TeleportBasics />
   <AxiosBasics />
+  <LifeCycleParentComp />
+  <RefsParentComp />
+  <MixinBasic />
+  <CompositionBasic />
   <hr />
 
   <div style="text-align: center; font-size: 40px; font-weight: bold">
@@ -50,6 +54,10 @@ import DynamicComponent from './components/dynamic-component/DynamicComponent';
 import CardParent from './components/slot/CardParent';
 import TeleportBasics from './components/TeleportBasics';
 import AxiosBasics from './components/http/AxiosBasics';
+import LifeCycleParentComp from './components/lifecycle/LifeCycleParentComp';
+import RefsParentComp from './components/refs/RefsParentComp';
+import MixinBasic from './components/mixin/MixinBasic';
+import CompositionBasic from './components/composition/CompositionBasic';
 
 export default {
   name: 'App',
@@ -73,7 +81,11 @@ export default {
     DynamicComponent,
     CardParent,
     TeleportBasics,
-    AxiosBasics
+    AxiosBasics,
+    LifeCycleParentComp,
+    RefsParentComp,
+    MixinBasic,
+    CompositionBasic
   }
 };
 </script>

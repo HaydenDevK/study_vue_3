@@ -11,10 +11,6 @@ export default {
   name: 'CompLevel2',
   components: {
     CompLevel3
-  },
-  data() {
-    return {};
-  },
-  methods: {}
+  }
 };
 </script>

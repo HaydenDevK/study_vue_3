@@ -38,7 +38,7 @@ export default {
     },
     highlight: {
       mounted(ele) {
-        console.log(ele); // <input type="text">
+        console.log(ele); // refs 선택자처럼 엘리먼트로 찍힌다. <input type="text">
         console.log({ ele }); // 객체로 찍힌다.
         ele.oninput = () => {
           // oninput : input의 on 이벤트 중 하나로 '뭔가가 작성이 되었을 때'
